@@ -1,9 +1,17 @@
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: #f4f4f4;
+}
+
 #calculator {
     height: 320px;
     width: 420px;
     border: 1px solid black;
     border-radius: 5px;
-    background-color: black;
+    background-color: rgb(61, 56, 56);
     padding-left: 2%;
 }
 
@@ -37,6 +45,7 @@ button {
     border-radius: 5%;
 }
 
+/*Modifica el boton = para que sea mas grande*/
 .result {
     width: 30.5%;
     background-color: blanchedalmond;
@@ -51,6 +60,7 @@ button:hover {
     background-color: blanchedalmond;
 }
 
+/*Modifica los botones para borrar o resetear texto en la pantalla*/
 .red {
     background-color: crimson;
     color: white;

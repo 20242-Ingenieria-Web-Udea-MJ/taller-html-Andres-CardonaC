@@ -1,6 +1,7 @@
 const display = document.getElementById("display");
 const buttons = document.querySelectorAll("button");
 
+/*Para cada boton realiza una validación al presionarlo dependiendo cuál sea*/
 buttons.forEach((btn) => {
     btn.addEventListener("click", () => {
         if (btn.id == "=") {
